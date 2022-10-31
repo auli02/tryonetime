@@ -25,7 +25,8 @@
 @media screen and (max-width:600px) {
     .left, .main, .right, .pg{
         width: 100%;
-        font-size: 12pt;
+        float: left;
+       
         
     }
     body{
@@ -34,6 +35,5 @@
     
 }
     .pg{
-    padding-top: 40px;
-    margin: 70px;
+    
 }
