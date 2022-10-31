@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+  }
+.left{
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 20%;
+    float: left;
+
+
+}
+.main{
+    background-color: tomato;
+    padding: 20px;
+    width: 60%;
+    float: left;
+}
+.right{
+    background-color: aquamarine;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+@media screen and (max-width:600px) {
+    .left, .main, .right, .pg{
+        width: 100%;
+        font-size: 12pt;
+        
+    }
+    body{
+        background-color: bisque;
+    }
+    
+}
+    .pg{
+    padding-top: 40px;
+    margin: 70px;
+}
